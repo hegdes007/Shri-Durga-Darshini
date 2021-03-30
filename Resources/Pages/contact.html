@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <link rel="icon" href="../Images/Icon.jpg" type="image/gif" sizes="14x14">
+    <link rel="stylesheet" href="./style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="../../index.html" class="logo"><img src="../Images/Logo-removebg-preview.PNG" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero contact" id="hero">
+        <div class="container">
+            <h2 class="sub-headline">
+                <span class="first-letter">C</span>ontact
+            </h2>
+            <h1 class="headline">Shri Durga Darshini</h1>
+            <div class="headline-description">
+                <div class="seperator">
+                    <div class="line line-left">
+                    </div>
+                    <div class="asterisk">
+                        <i class="fas fa-asterisk"></i>
+                    </div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>Party Orders</h5>
+                    <a href="#order" class="btn cta-btn">Get the quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="order">
+       <div class="contact-form">
+            <form action="">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="number">Contact Number:</label>
+                <input type="tel" name="mumber" id="number">
+                <label for="email">Your E-Mail address:</label>
+                <input type="email" name="email" id="email">
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                <label for="reason">Reason of the order:</label>
+                <input type="text" name="reason" id="reason">
+                <label for="date">Date and time of party order:</label>
+                <input type="datetime-local" name="" id="">
+                <label for="items">Required Items list:</label>
+                <textarea name="items" id="items" cols="30" rows="10"></textarea>
+                <button class="btn cta-btn" type="submit" onclick="alert('Website is not completed yet. Please try again later.')">Submit</button>
+            </form>
+        </div>
+   </section>
+
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-top">
+                    <h4 lang="kn">ಶ್ರೀ ದುರ್ಗಾ ದರ್ಶಿನಿ</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque quos tempore maxime iure esse molestias sapiente quam, consequuntur rerum accusamus laudantium ipsam maiores nemo! Recusandae fuga expedita eveniet pariatur?
+                    </p>
+                </div>
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="call-us">
+                        <h4>Call us <i class="fas fa-phone"></i></h4>
+                        <a href="tel:+91 9880004123">+91 9880004123</a>
+                    </div>
+                    <div class="map">
+                        <h4>Get Directions</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15389.857302294391!2d75.12752746977537!3d15.351319400000028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7416f66e3f1%3A0xca812a5b9b80a0cb!2sShri%20Durga%20Darshini!5e0!3m2!1sen!2sin!4v1616392224577!5m2!1sen!2sin" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" title="map"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
